@@ -27,3 +27,7 @@ Edit `src/main/resources/application.yml`:
 - `twilio.auth-token`: Twilio token
 - `twilio.from-number`: WhatsApp sender
 - `twilio.to-number`: WhatsApp recipient
+
+## To get the APIs Keys, you must:
+ - https://openweathermap.org/api (is free)
+ - https://www.twilio.com/docs/iam/api-keys (is free)
