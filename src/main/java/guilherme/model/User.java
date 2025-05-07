@@ -36,7 +36,7 @@ public class User {
     @Column(name = "is_active")
     private boolean active = true;
 
-    // Constructors
+    
     public User() {
     }
 
