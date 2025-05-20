@@ -46,7 +46,7 @@ public class RainCheckScheduler {
         }
     }
 
-    @Scheduled(cron = "0 0 20 * * *") 
+    @Scheduled(cron = "0 0 20 * * *")
     public void sendDailySummary() {
         User currentUser = userService.getCurrentUser();
         Location location = currentUser.getLocation();
